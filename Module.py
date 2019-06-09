@@ -17,4 +17,3 @@ cream={
 def calculate(weight,unitPrice):
     return weight*unitPrice
 
-print("Brand is: ",shampoo)
