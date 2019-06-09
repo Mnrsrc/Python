@@ -11,7 +11,6 @@ def UpdateOperation():
     connection.execute("""update media_types 
                        set Name='MP3 file'
                        where Name like '%MPEG%'""")
-    print("Hello!!!")
     connection.commit()
     connection.close()
 
