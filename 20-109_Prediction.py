@@ -11,8 +11,13 @@ from sklearn.linear_model import LinearRegression
 
 data=pd.read_csv("hw_25000.csv")
 regression=LinearRegression()
+
+print(data.Height)
 height=data.Height.values.reshape(-1,1)
+
+print(height)
 weight=data.Weight.values.reshape(-1,1)
+
 regression.fit(height,weight)
 #IT DOESN'T WORK!!!!!!!!!!!
 #print(regression.predict(71))
