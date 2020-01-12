@@ -29,7 +29,17 @@ imageSize=64
 plt.imshow(dataset1[12].reshape(imageSize,imageSize))
 #Now, we do not want to see the with axises.(Optional)
 plt.axis("off")
-
+#Now if we see the X.npy and Y.npy dataset. X.npy dataset (2062,64,64), Y.npy dataset is (2062,10).
+#For 0: [0:204]
+#For 1: [204:409]
+#For 2:[409:615]
+#♣For 3:[615:822]
+#◘For 4:[822:1028]
+#For 5: [1028:1236]
+#For 6:[1236:1443]
+#For 7:[1443:1649]
+#For 8:[1649:1855]
+#For 9[1855:2062]
 #training and testing data
 
 #Normalizationing Data
